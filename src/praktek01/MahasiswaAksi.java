@@ -10,5 +10,7 @@ package praktek01;
  * @author Windows 8.1 Pro
  */
 public class MahasiswaAksi {
-    
+    public static void main(String[] args) {
+        Mahasiswa Harry = new Mahasiswa();
+    }
 }
