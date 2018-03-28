@@ -11,18 +11,18 @@ package praktek01;
  */
 public class Dota2Aksi {
     public static void main(String[] args) {
-        Dota2 str = new Dota();
-        Dota2 agi = new Dota();
-        Dota2 inte = new Dota();
+        Dota2 strr = new Dota2();
+        Dota2 agi = new Dota2();
+        Dota2 inte = new Dota2();
         
-        str.nama="Earthshaker";
-        str.role="Support - Initiator - Disabler - Nuker";
-        str.typehero="Strength";
-        str.atktype="Meele";
-        str.skill1="Fissure - Mana Cost: 125/140/155/170";;
-        str.skill2="Enchant Totem - Mana Cost: 35/40/45/50";
-        str.skill3="Aftershock - ABILITY: Passive";
-        str.ulti="Echo Slam - Mana Cost: 145/205/265";
+        strr.nama="Earthshaker";
+        strr.role="Support - Initiator - Disabler - Nuker";
+        strr.typehero="Strength";
+        strr.atktype="Meele";
+        strr.skill1="Fissure - Mana Cost: 125/140/155/170";;
+        strr.skill2="Enchant Totem - Mana Cost: 35/40/45/50";
+        strr.skill3="Aftershock - ABILITY: Passive";
+        strr.ulti="Echo Slam - Mana Cost: 145/205/265";
         
         agi.nama="Anti-Mage";
         agi.role="Carry - Escape - Nuker";
@@ -43,7 +43,11 @@ public class Dota2Aksi {
         inte.ulti="Freezing Field - Mana Cost: 200/400/600";
         
         
-        Dota2.cetakInfo();
+        strr.cetakInfo();
+        System.out.println();
+        agi.cetakInfo();
+        System.out.println();
+        inte.cetakInfo();
     }
     
 }
