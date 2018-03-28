@@ -10,5 +10,14 @@ package praktek01;
  * @author Windows 8.1 Pro
  */
 public class Mahasiswa {
+    string nama;
+    string NPM;
+    double IPK;
+    
+    void cetakInfo(){
+        system.out.println("Nama : " +nama);
+        system.out.println("NPM : "+NPM);
+        system.out.println("IPK : "+IPK);
+    }
     
 }
