@@ -16,9 +16,9 @@ public class Mahasiswa {
 
     
     void cetakInfo(){
-        system.out.println("Nama : " +nama);
-        system.out.println("NPM : "+NPM);
-        system.out.println("IPK : "+IPK);
+        System.out.println("Nama : "+nama);
+        System.out.println("NPM : "+NPM);
+        System.out.println("IPK : "+IPK);
     }
     
 }
